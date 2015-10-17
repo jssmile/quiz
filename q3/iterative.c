@@ -15,8 +15,7 @@ static double diff_in_second(struct timespec t1, struct timespec t2)
     return (diff.tv_sec + diff.tv_nsec / 1000000000.0);
 }
 
-typedef struct TreeNode
-{
+typedef struct TreeNode {
 //Definition for a binary tree node.
     int data;
     struct TreeNode *left;
